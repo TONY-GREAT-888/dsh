@@ -1,0 +1,12 @@
+# 本项目下的dataset中的数据集仅供大家参考存放格式和调试代码是否能跑通
+# dataset path
+path: /PaperCode-main/PaperCode-main/dataset/
+train: ./ship20000/images/train  # path + train
+val: ./ship20000/images/val # path + val
+test: ./ship2000/images/test # path + test
+
+# number of classes
+nc: 6
+
+# class names
+names: ['obstacle', 'ship', 'person', 'platform', 'animal', 'rock']
